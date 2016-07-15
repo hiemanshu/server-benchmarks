@@ -10,10 +10,10 @@ TODO
 
 # Framework Endpoints
 
-`/index` - Render a static template (index.html)
-`/index.json` - Render a static JSON (index.json)
-`/fortunes` - Read all fortune message from the DB, and render a template (fortunes.html_)
-`/fortunes.json` - Read all fortune messages from the DB, and render JSON (fortunes.json)
+`/index` - Render a static template (index.html)  
+`/index.json` - Render a static JSON (index.json)  
+`/fortunes` - Read all fortune message from the DB, and render a template (fortunes.html)  
+`/fortunes.json` - Read all fortune messages from the DB, and render JSON (fortunes.json)  
 
 # File Structure
 
