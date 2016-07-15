@@ -5,18 +5,65 @@ The idea behind this project is to measure performance over different operations
 If you would like to fix something, or add a new framework. Please feel free to send a PR my way.
 
 # Testing Hardware
-- Standard Mid 2014 MacBook Pro. i7 2.2Ghz, 16GB RAM, 256GB SSD
-- AWS (TODO)
-- Digital Ocean (TODO)
+
+TODO
 
 # File Structure
 
-TODO
+```
+config/
+- install.sh
+- setup.sh
+- *.sql
+
+frameworks/
+- language-name/
+- - install.sh
+- - framework-name/
+- - - install.sh
+- - - run.sh
+- - - <framework-files>.*
+```
+
+## config/
+
+Configuration files for installing and setting up non framework specific tasks.
+
+###### install.sh
+
+Installing everything not framework specific, like `wrk2`, `postgresql`, etc.
+
+###### setup.sh
+
+Setup Database, etc.
+
+## frameworks/
+
+This directory contains all the frameworks to be tested.
+
+### language-name/
+
+This directory contains all the frameworks which use the same language.
+
+###### install.sh
+
+Install all language specific dependencies.
+
+#### framework-name/
+
+This directory contains framework specific files to setup the framework and run the tests.
+
+###### install.sh
+
+Install all framework specific dependencies.
+
+###### run.sh
+
+Run tests for this framework.
 
 # Running the tests
-
 TODO
 
 # Contributing
-
 TODO
+
