@@ -8,6 +8,13 @@ If you would like to fix something, or add a new framework. Please feel free to 
 
 TODO
 
+# Framework Endpoints
+
+`/index` - Render a static template (index.html)
+`/index.json` - Render a static JSON (index.json)
+`/fortunes` - Read all fortune message from the DB, and render a template
+`/fortunes.json` - Read all fortune messages from the DB, and render JSON
+
 # File Structure
 
 ```
