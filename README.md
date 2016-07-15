@@ -30,6 +30,9 @@ frameworks/
 - - - install.sh
 - - - run.sh
 - - - <framework-files>.*
+
+templates/
+- *.html
 ```
 
 ## config/
@@ -67,6 +70,10 @@ Install all framework specific dependencies.
 ###### run.sh
 
 Run tests for this framework.
+
+## templates/
+
+Contains the various templates used.
 
 # Running the tests
 TODO
