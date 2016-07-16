@@ -8,6 +8,9 @@ If you would like to fix something, or add a new framework. Please feel free to 
 
 TODO
 
+# Running the tests
+TODO
+
 # Framework Endpoints
 
 `/index` - Render a static template (index.html)  
@@ -74,9 +77,6 @@ Run tests for this framework.
 ## templates/
 
 Contains the various templates used.
-
-# Running the tests
-TODO
 
 # Contributing
 TODO
